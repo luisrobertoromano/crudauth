@@ -1,0 +1,19 @@
+{% extends 'persona/panel.html' %}
+
+
+{% block content %}
+    
+
+{% for object in personas  %}
+<p>--------------------------</p>
+<p>{{object.apellidos}}</p>
+<p>{{object.nombres}}</p>
+<p>{{object.dni}}</p>
+<p>-------------------------</p>
+    
+{% endfor %}
+    
+
+
+{% endblock content %}
+    
